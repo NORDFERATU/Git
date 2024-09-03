@@ -8,7 +8,8 @@ namespace Git
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        bool MingkeyIsGay = false;
+        bool MingkeyIsGay = true;
+        bool Jump = true;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
